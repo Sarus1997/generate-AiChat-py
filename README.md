@@ -48,3 +48,33 @@ ai-chat-project/
 ├── requirements.txt               # Python dependencies
 ├── README.md                      # Project documentation
 └── .env                           # Environment variables (e.g., API keys)
+```
+## Setup and Installation
+### Prerequisites
+🐍 Python: Version 3.9+
+📦 pip: Python package manage
+
+
+### Steps
+1. Clone the repository:
+```plaintext
+git clone https://github.com/your-username/ai-chat-project.git
+cd ai-chat-project
+```
+2. Set up a virtual environment:
+```plaintext
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+```
+3. Install dependencies:
+```plaintext
+pip install -r requirements.txt
+```
+4.Configure the environment:
+- Rename .env.example to .env and update values as needed.
+- Modify configs/config.yaml for custom configurations.
+
+5.Run the application:
+```plaintext
+python src/main.py
+```
