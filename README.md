@@ -51,8 +51,8 @@ ai-chat-project/
 ```
 ## Setup and Installation
 ### Prerequisites
-🐍 Python: Version 3.9+
-📦 pip: Python package manage
+- 🐍 Python: Version 3.9+
+- 📦 pip: Python package manage
 
 
 ### Steps
